@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- start navbar -->
+ <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img width="60px" src="images/logo معدل.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" data-bs-toggle="modal" data-bs-target="#login">تسجيل الدخول</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">كورسات
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              المزيد
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">اتصل بنا</a></li>
+              <li><a class="dropdown-item" href="#"> فروعنا </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#"> تسجيل الدخول </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+ <!-- end navbar -->
+ <div class="cuorse_header">
+    <h3>php for beginners</h3>
+ </div>
+  <div class="course-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 card">
+                <div class="video">
+                    <iframe width="100%" height="500px" src="https://www.youtube.com/embed/zgCtcQOob3M?=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <h3>php for beginners</h3>
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                          The current link item
+                        </a>
+                        <a href="https://youtu.be/zgCtcQOob3M" target="blank" class="list-group-item list-group-item-action">intro for php</a>
+                        <a href="https://youtu.be/nvLKjwktfS8" target="_blank" class="list-group-item list-group-item-action">php</a>
+                        <a href="https://youtu.be/6QFRZaQWZzo" target="_blank" class="list-group-item list-group-item-action">php 2</a>
+                        <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+                      </div>
+                      <br> <br>
+                      <hr>
+                      <h4>enter your comment</h4>
+                      <div class="comment">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <button class="btn btn-primary">send comment</button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-4 card">
+              <div class="card p-2 mt-2">
+                <img src="images/1.jpg" alt="">
+                <p>irainer <span style="font-size: 30px; color:red; padding-top: 15px;">MUHAMMED NUR</span> </p>
+                <P style="padding-left: 10px">review ⭐⭐⭐⭐⭐ </P>
+                <button class="btn btn-primary">Encroll</button>
+              </div>
+              <br><br>
+
+              <div class="container">
+                <div class="card">
+                  <form>
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="email" placeholder="الرجاء ادخال البريد الالكتروني" id="form2Example1" class="form-control" />
+                      <label class="form-label" for="form2Example1">Email address</label>
+                    </div>
+                  
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <input type="password" placeholder="الرجاء ادخال كلمة المرور" id="form2Example2" class="form-control" />
+                      <label class="form-label" for="form2Example2">Password</label>
+                    </div>
+                  
+                    <!-- 2 column grid layout for inline styling -->
+                    <div class="row mb-4">
+                      <div class="col d-flex justify-content-center">
+                        <!-- Checkbox -->
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+                          <label class="form-check-label" for="form2Example31"> Remember me </label>
+                        </div>
+                      </div>
+                  
+                      <div class="col">
+                        <!-- Simple link -->
+                        <a href="#!">Forgot password?</a>
+                      </div>
+                    </div>
+                  
+                    <!-- Submit button -->
+                    <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+                  
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                      <p>Not a member? <a href="#!">Register</a></p>
+                      <p>or sign up with:</p>
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-facebook-f"></i>
+                      </button>
+                  
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-google"></i>
+                      </button>
+                  
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-twitter"></i>
+                      </button>
+                  
+                      <button type="button" class="btn btn-link btn-floating mx-1">
+                        <i class="fab fa-github"></i>
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="container">
+                <div class="card">
+                  <img class="hi p-2" src="images/1.jpg" alt="">
+                  <h3 class="my p-2">مدرب محترف خبير بلغات البرمجة</h3>
+                  <h4></h4>
+                  <p class="p-2" >مدرب مختص بجميع لغات البرمجة وجاخز لتعليم المبتدئين من الصفر حتى الاحتراف</p>
+                  <h5 class="card-title p-2" ><i class="fa-solid fa-eye" > </i> <span>50000</span></h5>
+                  <div class="btn btn-primary">اقراء المزيد</div>
+                </div>
+              </div>
+
+                
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h4>Related course</h4>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="images/word.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title: <SPan style="color:red" >word for beginners</SPan></h5>
+                <h5 class="card-title">price: <SPan style="color:red" >150$</SPan></h5>
+                <h5 class="card-title"><i class="fa-solid fa-users"></i> <SPan style="color:red" >100</SPan></h5>
+                <p class="card-text">PHP is the most popular scripting language on the web. Without PHP Facebook, Yahoo, Google wouldn</p>
+                <a class="btn btn-outline-primary btn-outline" href="course_details.html">Details</a>
+      
+      
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/excel.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title: <SPan style="color:red" >excel for beginners</SPan></h5>
+                <h5 class="card-title">price: <SPan style="color:red" >150$</SPan></h5>
+                <h5 class="card-title"><i class="fa-solid fa-users"></i> <SPan style="color:red" >100</SPan></h5>
+                <p class="card-text">PHP is the most popular scripting language on the web. Without PHP Facebook, Yahoo, Google wouldn</p>
+                <a class="btn btn-outline-primary btn-outline" href="course_details.html">Details</a>
+      
+      
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="images/php3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title: <SPan style="color:red" >PHP for beginners</SPan></h5>
+                <h5 class="card-title">price: <SPan style="color:red" >150$</SPan></h5>
+                <h5 class="card-title"><i class="fa-solid fa-users"></i> <SPan style="color:red" >150</SPan></h5>
+                <p class="card-text">PHP is the most popular scripting language on the web. Without PHP Facebook, Yahoo, Google wouldn</p>
+                <a class="btn btn-outline-primary btn-outline" href="course_details.html">Details</a>
+      
+      
+              </div>
+            </div>
+          </div>
+          
+          </div>
+          
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+ <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/MElbakkur" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/m7md_nurr/?next=%2F" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/m7md_nurr/?next=%2F" target="_blank" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>تقضل معلم  </strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              ارسال 
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">الداعمين</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">محمد نور</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">تيسبر علوني</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">محمد كردي</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">عبدالعزيز </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">المتفوقين</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">عبدالعزيز </a>
+            </li>
+            <li>
+              <a href="#!" class="text-white"> محمد نور</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">طارق الجاسم</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">محمد الكردي</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">اسماء</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">محمد مور البكور</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">طارق الجاسم </a>
+            </li>
+            <li>
+              <a href="#!" class="text-white"> مجد شما</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">عبدالعزيز </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">مواقع التواصل</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">فيس بوك </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/m7md_nurr/?next=%2F!" class="text-white">انستغرام </a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">سناب شات </a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">يوتيوب </a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright: تصميم محمد نور البكور
+    <a class="text-white" href="https://mdbootstrap.com/"> يامرحبا</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="اغلاق"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">البريد الالكتروني</label>
+            <input type="email" class="form-control" placeholder="ادخل البريد الالكتروني" aria-describedby="emailHelp">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">كلمة المرور</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          
+          
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">تسجيل الدخول</button>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>

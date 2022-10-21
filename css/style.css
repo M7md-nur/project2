@@ -1,0 +1,122 @@
+body{
+    height: 4000px;
+}
+.our-features{
+    margin-top: 100px;
+    text-align: center;
+}
+    .our-features{
+        margin-top: 100px;
+        height: 600px;
+        text-align: center;
+        
+        }
+    .our-features h1 {
+        color:rgb(0, 77, 192);
+        font-size: 50px;
+       
+        
+    }
+    .our-features p {
+    margin-bottom: 50px;
+    color: black;
+   
+
+    }
+    .our-features i {
+        background-color: rgb(0, 77, 192);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        font-size: 50px;
+        color: white;
+        line-height: 100px;
+    }
+    .our-features .one-feature {
+        border: 1px solid rgb(160, 63, 63);
+        padding: 20px ;
+        border-radius: 10px;
+        background-color: #eee;
+        cursor: pointer;
+        margin:5px;
+        width: 30%;
+    }
+    .our-features .one-feature:hover{
+        border: 1px solid;
+    }
+    .our-team {
+        margin-top: 100px;
+        text-align: center;
+        background-color: #eee;
+        padding-bottom: 50px;
+        cursor: pointer;
+    }
+        .our-team h1 {
+            color:rgb(0, 77, 192);
+            font-size: 50px;
+        }
+        our-team p {
+            margin-bottom: 30px;
+        }
+        .name {
+            margin-top: 20px;
+        }
+        .position{
+            font-size: 22px;
+            color: rgb(0, 77, 192);
+        }
+        .card-footer {
+            font-size: 30px;
+
+        }
+        .social {
+            display: flex;
+            justify-content: space-around;
+        }
+        .social i {
+            color: grey;
+        }
+        .statistic{
+            height: 500px;
+            background-image: url(../images/EDUCATION-text.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            margin-bottom: 150px;
+        }
+        .overlay {
+            background-color: black;
+            height: 100%;
+            opacity: 0.7;
+        }
+        .number{
+            text-align: center;
+            width: 80%;
+            height: 100px;
+            
+        }
+        .number h3 {
+            color: white;
+            font-size: 70px;
+        }
+        .cuorse_header{
+            text-align: center;
+            background-image: url(../images/ed.avif);
+            background-size: cover;
+            padding: 100px 0 100px 0;
+            background-position: center 80%;
+            
+        }
+        .cuorse_header h3 {
+            color: rgb(255, 255, 255);
+            font-size: 60px;
+            background-color: black;
+            display: inline-block;
+            padding: 10px;
+            
+        }
+        .course-details {
+            height: 2000px;
+            margin-top: 50px;
+        }
+
